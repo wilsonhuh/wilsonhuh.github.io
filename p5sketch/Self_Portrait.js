@@ -65,6 +65,6 @@ triangle(170, 222, 230, 222, 200, 210); //thing 1
 triangle(220, 222, 280, 222, 250, 210); //thing 2
 triangle(270, 222, 330, 222, 305, 210); //thing 3
 
-image(img, mouseX, mouseY); //chicken
+image(img, 0, 0); //chicken
 
 }

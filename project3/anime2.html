@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project 3</title>
+</head>
+<style>
+*
+{
+margin: 0;
+padding: 0;
+}
+
+p {text-align:center;}
+p {color:white;}
+a {color: lightgray;}
+/* mouse over link */
+a:hover {color: white;}
+
+</style>
+
+<body style="background-color:black;">
+
+<audio id="akiocar" src="audio/akiocar.mp3"></audio>
+
+<a onmouseover="" style="cursor: pointer;">
+<img id="img" src="img/anime/tpose.gif" 
+img STYLE="position:absolute; TOP:600px; LEFT:500px;">
+</a>
+
+<script>
+document.getElementById("img").addEventListener("click", function(){
+    document.getElementById("akiocar").play();
+});
+</script>
+
+<img id="layer2" src="img/anime/27.gif" width="1920" height="1000" usemap="#spook"/>
+
+<map name="spook">
+  <area shape="rect" coords="1314,630,1376,842" href="gokigenyou.html">
+</map>
+
+</body>
+</html>

@@ -16,15 +16,93 @@ a {color: lightgray;}
 /* mouse over link */
 a:hover {color: white;}
 
+    .babylon
+    {position:absolute; top: 235px; left: 750px; z-index: 3;}
+
+	.ino
+	{position:absolute; top: 440px; left: 920px; z-index: 4;}
+	
+	.comfy
+	{position:absolute; top: 480px; left: 0px; z-index: 1;}
+	
+	.sfgirls
+	{position:absolute; top: 0px; left: 450px; z-index: 2;}
+	
+	.tenor
+    {position:absolute; top: 0px; left: 0px; z-index: 3;}
+	
+	.ryu
+    {position:absolute; top: 490px; left: 0px; z-index: 3;}
+	
+	.akuma
+    {position:absolute; top: 820px; left: 0px; z-index: 3;}	
+	
+	.jacko
+    {position:absolute; top: 1320px; left: 0px; z-index: 3;}	
+
+	.ltg
+    {position:absolute; top: 0px; left: 1600px; z-index: 3;}
+
+	.no
+    {position:absolute; top: 1020px; left: 1600px; z-index: 4;}
+	
+	.clik
+    {position:absolute; top: 1288px; left: 1600px; z-index: 5;}
+	
+	.juri
+    {position:absolute; top: 0px; left: 460px; z-index: 5;}
+	
 </style>
 
 <body style="background-color:black;">
 
-<p> PAGE UNDER CONSTRUCTION </p>
 
-<img id="layer2" src="img/fgc/babylon.gif"  />
+<img width="600" src="img/fgc/babylon.gif" class="babylon" />
+
+<a href="index.html">
+<img width="80" SRC="ino.gif" class="ino">
+</a>
+
+<img src="img/fgc/tenor.gif" class="tenor"/>
+
+<img src="img/fgc/juri.gif" class="juri"/>
+
+<img src="img/fgc/comfy.jpg" class="comfy"/>
+
+<img src="img/fgc/sfgirls.jpg" class="sfgirls"/>
+
+<img src="img/fgc/ryu.png" width="500" class="ryu"/>
+
+<img src="img/fgc/akuma.jpg" width="500" class="akuma"/>
 
 
+<img src="img/fgc/jacko.gif" width="400" class="jacko"/>
+
+<img src="img/fgc/ltg.jpg" width="300" class="ltg"/>
+
+<a href="index.html">
+<img src="img/fgc/clik.jpg" width="304" class="clik"/>
+</a>
+
+<a onmouseover="" style="cursor: pointer;">
+<img id="no" src="img/fgc/no.jpg" width="302" class="no"
+onclick="changeImage()" value="Change"/>
+</a>
+
+
+
+
+		    <script>
+        function changeImage() {
+            var image = document.getElementById('no');
+            if (image.src.match("img/fgc/no.jpg")) {
+                image.src = "img/fgc/yes.jpg";
+            }
+            else {
+                image.src = "img/fgc/no.jpg";
+            }
+        }
+    </script>
 
 </body>
 </html>

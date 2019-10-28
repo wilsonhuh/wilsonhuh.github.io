@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ZA TOPPU STAH</title>
+</head>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*
+{
+margin: 0;
+padding: 0;
+}
+
+p {text-align:center;}
+p {color:white;}
+a {color: lightgray;}
+/* mouse over link */
+a:hover {color: white;}
+
+</style>
+
+<body style="background-color:black;">
+
+<audio id="yori" src="audio/yori.mp3"></audio>
+
+<a onmouseover="" style="cursor: pointer;">
+<img id="topstar" src="img/anime/topstar.jpg" width="1270" >
+</a>
+
+<script>
+document.getElementById("topstar").addEventListener("click", function(){
+    document.getElementById("yori").play();
+});
+</script>
+
+
+</body>
+</html>
